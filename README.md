@@ -3,7 +3,7 @@
 ## Setup Instructions/Resources:
   ### Installing Python with Homebrew (for package management)
   * Install Homebrew: https://brew.sh/
-  * Install Python 3.8.12 (latest 3.8 version) with brew: https://stackoverflow.com/questions/49470367/install-virtualenv-and-virtualenvwrapper-on-macos
+  * Install Python 3.8.12 (latest 3.8 version) with brew: https://stackoverflow.com/questions/49470367/install-virtualenv-and-virtualenvwrapper-on-macos (use `brew install python@3.8`)
 
   ### Repo Setup
   * We will be using the Forking Workflow, for more info see: https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow
