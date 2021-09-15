@@ -39,5 +39,5 @@
 
   ### Fixing Merge Conflicts
   * Rebasing involves re-writing git history, so merge conflicts may have to be fixed for multiple commits. If working on a feature that has many commits, I'd encourage squashing commits together (see: https://www.youtube.com/watch?v=V5KrD7CmO4o), to avoid this and make things easier.
-  1) Make the changes that fix the merge conflicts, then `git add` them.
-  2) run `git rebase --continue`, which will move to the next commit that is to be stacked, checking for merge conflicts, if there are any in future commits.
+  1) Make the changes that fix the merge conflicts for the given commit, then `git add` them.
+  2) run `git rebase --continue`, which will implement these fixes, and then move to the next commit that is to be rebased, repeating the process.
