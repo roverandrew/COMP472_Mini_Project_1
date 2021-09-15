@@ -3,18 +3,18 @@
 ## Setup Instructions/Resources:
   ### Installing Python with Homebrew (for package management)
   * Install Homebrew: https://brew.sh/
-  * Install Python 3.8.12(latest 3.8 version) with brew: https://stackoverflow.com/questions/49470367/install-virtualenv-and-virtualenvwrapper-on-macos
+  * Install Python 3.8.12 (latest 3.8 version) with brew: https://stackoverflow.com/questions/49470367/install-virtualenv-and-virtualenvwrapper-on-macos
 
   ### Repo Setup
   * We will be using the Forking Workflow, for more info see: https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow
-  1)  Fork this repo
+  1) Fork this repo
   2) `git clone [url-of-fork]`
   3) Set the upstream branch (main repo) on your local: `git remote add upstream https://github.com/roverandrew/COMP472_Mini_Project_1`
   4) Set the origin branch (The server-side copy of the repo, the fork), on your local: `git remote add origin [url-of-fork]`
   5) double-check the remotes have correctly been set using `git remote -v`
 
 ## Git Workflow
-  ### First off, what is `rebase` and why are we using it?:
+  ### What is `rebase` and why are we using it?:
   <img width="565" alt="Screen Shot 2021-09-15 at 1 52 16 PM" src="https://user-images.githubusercontent.com/54918397/133484503-4d14cd90-9d01-46d8-bbef-f053d46d1ca3.png">
   - Basically, it stacks branches on top of eachother.
   - It's easy to use and keeps the commit history linear, allows use of interactive rebase git commands which basically allow you to rename commits, squash multiple commits into one, and other cool stuff.
@@ -26,6 +26,7 @@
 
   ### Creating a Pull Request
   `git push --set-upstream origin [name of branch describing feature/task/wtv]`
+  * If a PR is not to be reviewed, just immediately merge if there are no conflicts. This will probably be most cases. If a PR is to be reviewed, merge it once approved and there are no conflicts.
   
   ### Updating a PR
   `git push --force-with-lease`
