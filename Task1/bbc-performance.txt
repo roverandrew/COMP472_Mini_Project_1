@@ -3,7 +3,7 @@ PART 7
 ***************************************************************************
 
 
-Multinomial Naive Bayes Classifier, try 1
+MultinomialNB default values, try 1
 
 a) 
 
@@ -28,7 +28,7 @@ j)
 k)
 
 ***************************************************************************
-Multinomial Naive Bayes Classifier, try 2
+MultinomialNB default values, try 2
 
 a) 
 
@@ -53,7 +53,7 @@ j)
 k)
 
 ***************************************************************************
-Multinomial Naive Bayes Classifier, try 3
+MultinomialNB Smoothing Value = 0.0001
 
 a) 
 
@@ -78,7 +78,7 @@ j)
 k)
 
 ***************************************************************************
-Multinomial Naive Bayes Classifier, try 4
+MultinomialNB Smoothing Value = 0.9
 
 a) 
 
