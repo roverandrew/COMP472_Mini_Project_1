@@ -1,0 +1,316 @@
+***************************************************************************
+PART 7
+***************************************************************************
+
+
+MultinomialNB default values, try 1 
+
+b) 
+ [105   0   2   0   4]
+ [  1  77   1   0   1]
+ [  2   0  66   0   0]
+ [  1   0   0 102   0]
+ [  0   0   0   0  83]
+
+c) 
+precision scores:
+[0.96330275 1.         0.95652174 1.         0.94318182]
+
+recall scores:
+[0.94594595 0.9625     0.97058824 0.99029126 1.        ]
+
+f1-measures:
+[0.95454545 0.98089172 0.96350365 0.99512195 0.97076023]
+
+d)
+accuracy score:
+0.9730337078651685
+
+macro-average f1 score:
+0.972964601812671
+
+weighted-average f1 score:
+0.9730669474160903
+
+e) P(category) = # of documents in category / total # of documents
+
+P(business) = 0.22415730337078651
+P(entertainment) = 0.17191011235955056
+P(politics) = 0.1960674157303371
+P(sport) = 0.2292134831460674
+P(tech) = 0.17865168539325843
+
+
+f) Vocabulary size: 29421
+
+g)
+# of word-tokens in class business: 129035
+# of word-tokens in class entertainment: 97992
+# of word-tokens in class politics: 153340
+# of word-tokens in class sport: 131080
+# of word-tokens in class tech: 155432
+
+h) Total words in corpus: 666879
+
+i)
+Number of words with a frequency of zero in class business: 18946
+Percentage of words with a frequency of zero in class business: 14.682837989692718%
+
+Number of words with a frequency of zero in class entertainment: 19160
+Percentage of words with a frequency of zero in class entertainment: 19.552616540125726%
+
+Number of words with a frequency of zero in class politics: 18920
+Percentage of words with a frequency of zero in class politics: 12.338593974175035%
+
+Number of words with a frequency of zero in class sport: 19761
+Percentage of words with a frequency of zero in class sport: 15.075526396093988%
+
+Number of words with a frequency of zero in class tech: 18704
+Percentage of words with a frequency of zero in class tech: 12.033558083277574%
+
+j)
+Number of words with a frequency of one in corpus: 20690
+Percentage of words with a frequency of one in corpus: 3.1025118499757824%
+
+k)
+word 1 = "friday"
+Log-prob for word 1: -8.421459265063207
+
+word 2 = "there"
+Log prob for word 2: -6.32363151367873
+
+
+
+
+***************************************************************************
+MultinomialNB default values, try 2
+
+b) 
+ [105   0   2   0   4]
+ [  1  77   1   0   1]
+ [  2   0  66   0   0]
+ [  1   0   0 102   0]
+ [  0   0   0   0  83]
+
+c) 
+precision score:
+[0.96330275 1.         0.95652174 1.         0.94318182]
+
+recall score:
+[0.94594595 0.9625     0.97058824 0.99029126 1.        ]
+
+f1-measure:
+[0.95454545 0.98089172 0.96350365 0.99512195 0.97076023]
+
+d)
+accuracy score:
+0.9730337078651685
+
+macro-average f1 score:
+0.972964601812671
+
+weighted-average f1 score:
+0.9730669474160903
+
+e)P(category) = # of documents in category / total # of documents
+
+P(business) = 0.22415730337078651
+P(entertainment) = 0.17191011235955056
+P(politics) = 0.1960674157303371
+P(sport) = 0.2292134831460674
+P(tech) = 0.17865168539325843
+
+f) Vocabulary size: 29421
+
+g)
+# of word-tokens in class business: 129035
+# of word-tokens in class entertainment: 97992
+# of word-tokens in class politics: 153340
+# of word-tokens in class sport: 131080
+# of word-tokens in class tech: 155432
+
+h) Total words in corpus: 666879
+
+i) 
+Number of words with a frequency of zero in class business: 18946
+Percentage of words with a frequency of zero in class business: 14.682837989692718%
+
+Number of words with a frequency of zero in class entertainment: 19160
+Percentage of words with a frequency of zero in class entertainment: 19.552616540125726%
+
+Number of words with a frequency of zero in class politics: 18920
+Percentage of words with a frequency of zero in class politics: 12.338593974175035%
+
+Number of words with a frequency of zero in class sport: 19761
+Percentage of words with a frequency of zero in class sport: 15.075526396093988%
+
+Number of words with a frequency of zero in class tech: 18704
+Percentage of words with a frequency of zero in class tech: 12.033558083277574%
+
+j) 
+Number of words with a frequency of one in corpus: 20690
+Percentage of words with a frequency of one in corpus: 3.1025118499757824%
+
+k)
+word 1 = "friday"
+Log-prob for word 1: -8.421459265063207
+
+word 2 = "there"
+Log prob for word 2: -6.32363151367873
+
+
+
+***************************************************************************
+MultinomialNB Smoothing Value = 0.0001
+
+b) 
+ [107   0   1   0   3]
+ [  0  79   1   0   0]
+ [  1   0  67   0   0]
+ [  1   0   0 102   0]
+ [  0   1   0   0  82]
+
+c) 
+precision score:
+[0.98165138 0.9875     0.97101449 1.         0.96470588]
+
+recall score:
+[0.96396396 0.9875     0.98529412 0.99029126 0.98795181]
+
+f1-measure:
+[0.97272727 0.9875     0.97810219 0.99512195 0.97619048]
+
+d)
+accuracy score:
+0.9820224719101124
+
+macro-average f1 score:
+0.9819283779836565
+
+weighted-average f1 score:
+0.9820338127578788
+
+e) P(category) = # of documents in category / total # of documents
+
+P(business) = 0.22415730337078651
+P(entertainment) = 0.17191011235955056
+P(politics) = 0.1960674157303371
+P(sport) = 0.2292134831460674
+P(tech) = 0.17865168539325843
+
+f) Vocabulary size: 29421
+
+g)
+# of word-tokens in class business: 129035
+# of word-tokens in class entertainment: 97992
+# of word-tokens in class politics: 153340
+# of word-tokens in class sport: 131080
+# of word-tokens in class tech: 155432
+
+h) Total words in corpus: 666879
+
+i) 
+Number of words with a frequency of zero in class business: 18946
+Percentage of words with a frequency of zero in class business: 14.682837989692718%
+
+Number of words with a frequency of zero in class entertainment: 19160
+Percentage of words with a frequency of zero in class entertainment: 19.552616540125726%
+
+Number of words with a frequency of zero in class politics: 18920
+Percentage of words with a frequency of zero in class politics: 12.338593974175035%
+
+Number of words with a frequency of zero in class sport: 19761
+Percentage of words with a frequency of zero in class sport: 15.075526396093988%
+
+Number of words with a frequency of zero in class tech: 18704
+Percentage of words with a frequency of zero in class tech: 12.033558083277574%
+
+j)
+Number of words with a frequency of one in corpus: 20690
+Percentage of words with a frequency of one in corpus: 3.1025118499757824%
+
+
+k)
+word 1 = "friday"
+Log-prob for word 1: -8.238469997670116
+
+word 2 = "there"
+Log prob for word 2: -6.128436425922014
+
+
+
+***************************************************************************
+MultinomialNB Smoothing Value = 0.9 
+
+b) 
+ [105   0   2   0   4]
+ [  1  77   1   0   1]
+ [  2   0  66   0   0]
+ [  1   0   0 102   0]
+ [  0   0   0   0  83]
+
+c) 
+precision score:
+[0.96330275 1.         0.95652174 1.         0.94318182]
+
+recall score:
+[0.94594595 0.9625     0.97058824 0.99029126 1.        ]
+
+f1-measure:
+[0.95454545 0.98089172 0.96350365 0.99512195 0.97076023]
+
+d)
+accuracy score:
+0.9730337078651685
+
+macro-average f1 score:
+0.972964601812671
+
+weighted-average f1 score:
+0.9730669474160903
+
+e) P(category) = # of documents in category / total # of documents
+
+P(business) = 0.22415730337078651
+P(entertainment) = 0.17191011235955056
+P(politics) = 0.1960674157303371
+P(sport) = 0.2292134831460674
+P(tech) = 0.17865168539325843
+
+f) Vocabulary size: 29421
+
+g) 
+# of word-tokens in class business: 129035
+# of word-tokens in class entertainment: 97992
+# of word-tokens in class politics: 153340
+# of word-tokens in class sport: 131080
+# of word-tokens in class tech: 155432
+
+h) Total words in corpus: 666879
+
+i) 
+Number of words with a frequency of zero in class business: 18946
+Percentage of words with a frequency of zero in class business: 14.682837989692718%
+
+Number of words with a frequency of zero in class entertainment: 19160
+Percentage of words with a frequency of zero in class entertainment: 19.552616540125726%
+
+Number of words with a frequency of zero in class politics: 18920
+Percentage of words with a frequency of zero in class politics: 12.338593974175035%
+
+Number of words with a frequency of zero in class sport: 19761
+Percentage of words with a frequency of zero in class sport: 15.075526396093988%
+
+Number of words with a frequency of zero in class tech: 18704
+Percentage of words with a frequency of zero in class tech: 12.033558083277574%
+
+j)
+Number of words with a frequency of one in corpus: 20690
+Percentage of words with a frequency of one in corpus: 3.1025118499757824%
+
+k)
+word 1 = "friday"
+Log-prob for word 1: -8.405103781480497
+
+word 2 = "there"
+Log prob for word 2: -6.305856470114334
