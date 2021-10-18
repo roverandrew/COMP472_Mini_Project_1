@@ -1,4 +1,5 @@
 # COMP472_Mini_Project_1
+# Github: https://github.com/roverandrew/COMP472_Mini_Project_1
 
 ## To run Task 1:
 1. Open a jupyter notebook through anaconda or by running jupyter-notebook in your terminal.
