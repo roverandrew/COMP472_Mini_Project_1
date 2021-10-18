@@ -1,0 +1,5 @@
+Notes after running each model 10 times and observing the results:
+
+As can be seen from the drugs-performance.txt file, most times the models were ran gave different results compared to the previous run. This can simply be explained by the different training and test sets created by the train_test_split() method. From this method, the complete data set is split into sub data sets each corresponding to either the training or test set. These sets are then used to populate the models use in step 6 and 7 of Task 2. Since we are using different slices of the initial data set on each run, the results output differently. 
+
+Sometimes, we can notice certain values remaining the same across tries. This can be cause by similar or the same values randomly being selected by the train_test_split() method. As a result, this leads to similar values for the Accuracy, Macro-Average F1, and Weighted-Average F1. 
